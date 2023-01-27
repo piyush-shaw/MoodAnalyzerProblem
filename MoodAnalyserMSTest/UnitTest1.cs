@@ -147,4 +147,12 @@ public class UnitTest1
         }
     }
 
+    //Method to test mood analyser class with parameterized constructor 
+    [TestMethod]
+    public void GivenMessageReturnParameterizedConstructorNotFound()
+    {
+        object expected = new MoodAnalyser("HAPPY");
+        object obj = MoodAnalyserFactory.CreateMoodAnalyseUsingParameterizedConstructor("MoodAnalyserProblem.MoodAnalyser", "MoodAnalyser", "SAD");
+        expected.Equals(obj);
+    }
 }
