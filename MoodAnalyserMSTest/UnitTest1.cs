@@ -22,6 +22,7 @@ public class UnitTest1
     }
 
     //Method to test happy message
+    [TestMethod]
     public void AnalyseMood_ShouldReturnHappy()
     {
         //Arrange
@@ -31,6 +32,23 @@ public class UnitTest1
 
         //Act
         string actual = mood.AnalyseMood();
+
+        //Assert
+        Assert.AreEqual(expected, actual);
+    }
+
+    //Method to test happy message using null
+    [TestMethod]
+    public void GivenNullMoodShouldReturnHappy()
+    {
+        //Arrange
+        string msg = null;
+        string expected = "happy";
+        string actual = null;
+        MoodAnalyser mood = new MoodAnalyser(msg);
+
+        //Act
+        actual = mood.AnalyseMood();
 
         //Assert
         Assert.AreEqual(expected, actual);
