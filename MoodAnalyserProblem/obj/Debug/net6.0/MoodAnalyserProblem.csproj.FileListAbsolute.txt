@@ -1,0 +1,15 @@
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/bin/Debug/net6.0/MoodAnalyserProblem
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/bin/Debug/net6.0/MoodAnalyserProblem.deps.json
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/bin/Debug/net6.0/MoodAnalyserProblem.runtimeconfig.json
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/bin/Debug/net6.0/MoodAnalyserProblem.dll
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/bin/Debug/net6.0/MoodAnalyserProblem.pdb
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/MoodAnalyserProblem.csproj.AssemblyReference.cache
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/MoodAnalyserProblem.GeneratedMSBuildEditorConfig.editorconfig
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/MoodAnalyserProblem.AssemblyInfoInputs.cache
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/MoodAnalyserProblem.AssemblyInfo.cs
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/MoodAnalyserProblem.csproj.CoreCompileInputs.cache
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/MoodAnalyserProblem.dll
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/refint/MoodAnalyserProblem.dll
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/MoodAnalyserProblem.pdb
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/MoodAnalyserProblem.genruntimeconfig.cache
+/Users/piyushshaw/Projects/MoodAnalyserProblem/MoodAnalyserProblem/obj/Debug/net6.0/ref/MoodAnalyserProblem.dll
