@@ -53,4 +53,67 @@ public class UnitTest1
         //Assert
         Assert.AreEqual(expected, actual);
     }
+
+    //Method to test custom null exception message
+    [TestMethod]
+    public void GivenNullMoodThrowMoodAnalysisException()
+    {
+        //Arrange
+        string msg = "";
+        string expected = "Message should not be null";
+        MoodAnalyser mood = new MoodAnalyser(msg);
+
+        try
+        {
+            //Act
+            string actual = mood.AnalyseMood();
+        }
+        catch(MoodAnalyserCustomException e)
+        {
+            //Assert
+            Assert.AreEqual(expected, e.Message);
+        }
+
+    }
+
+    //Method to test custom empty exception message 
+    [TestMethod]
+    public void GivenEmptyMoodThrowMoodAnalysisException()
+    {
+        //Arrange
+        string msg = "";
+        string expected = "Message should not be empty";
+        MoodAnalyser mood = new MoodAnalyser(msg);
+
+        try
+        {
+            //Act
+            string actual = mood.AnalyseMood();
+        }
+        catch (MoodAnalyserCustomException e)
+        {
+            //Assert
+            Assert.AreEqual(expected, e.Message);
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
