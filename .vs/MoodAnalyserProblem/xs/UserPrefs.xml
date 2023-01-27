@@ -1,21 +1,20 @@
 ﻿<Properties StartupConfiguration="{D8C743D3-10E0-497D-BEB2-7B8533D25F62}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="MoodAnalyserProblem/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="MoodAnalyserMSTest/UnitTest1.cs">
     <Files>
-      <File FileName="../untitled folder/MoodAnalyzerProblem/README.md" Line="1" Column="1" />
-      <File FileName="MoodAnalyserProblem/Program.cs" Line="7" Column="2" />
-      <File FileName="MoodAnalyserMSTest/UnitTest1.cs" Line="1" Column="27" />
-      <File FileName="MoodAnalyserProblem/MoodAnalyser.cs" Line="8" Column="38" />
+      <File FileName="MoodAnalyserProblem/Program.cs" Line="10" Column="43" />
+      <File FileName="MoodAnalyserMSTest/UnitTest1.cs" Line="20" Column="17" />
+      <File FileName="MoodAnalyserProblem/MoodAnalyser.cs" Line="43" Column="1" />
       <File FileName="MoodAnalyserMSTest/Usings.cs" Line="1" Column="1" />
+      <File FileName="MoodAnalyserProblem/MoodAnalyserCustomException.cs" Line="15" Column="4" />
+      <File FileName="MoodAnalyserProblem/MoodAnalyserFactory.cs" Line="87" Column="14" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="MoodAnalyserProblem" expanded="True">
             <Node name="MoodAnalyserMSTest" expanded="True" />
-            <Node name="MoodAnalyserProblem" expanded="True">
-              <Node name="Program.cs" selected="True" />
-            </Node>
+            <Node name="MoodAnalyserProblem" expanded="True" />
           </Node>
         </State>
       </Pad>

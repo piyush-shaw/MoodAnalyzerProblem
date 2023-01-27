@@ -164,19 +164,4 @@ public class UnitTest1
         object actual = MoodAnalyserFactory.InvokeAnalyserMethod("Happy", "AnalyseMood");
         Assert.AreEqual(expected, actual);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
