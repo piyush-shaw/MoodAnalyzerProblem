@@ -98,22 +98,53 @@ public class UnitTest1
 
     }
 
+    //Method to test moodanalyser class return moodanalyser object
+    [TestMethod]
+    public void GivenMoodAnalyseClassNameReturnObject()
+    {
+        //Arrange
+        string message = null;
+        object expected = new MoodAnalyser(message);
 
+        //Act
+        object obj = MoodAnalyserFactory.CreateMoodAnalyser("MoodAnalyserProblem.MoodAnalyser", "MoodAnalyser");
 
+        //Assert
+        expected.Equals(obj);
+    }
 
+    //Method to test mood analyser with different class to return no class found
+    [TestMethod]
+    public void GivenClassWhenClassNameNotProperThrowException(string expected)
+    {
+        object obj = null;
+        try
+        {
+            //Act
+            obj = MoodAnalyserFactory.CreateMoodAnalyser("MoodAnalyserProblem.MoodAnalyser", "MoodAnalyser");
+        }
+        catch(MoodAnalyserCustomException actual)
+        {
+            //Assert
+            Assert.AreEqual(expected, actual.Message);
+        }
+    }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    //Method to test mood analyse class return constructor not found
+    [TestMethod]
+    public void GivenClassWhenConstructorNotProperThrowException(string expected)
+    {
+        object obj = null;
+        try
+        {
+            //Act
+            obj = MoodAnalyserFactory.CreateMoodAnalyser("MoodAnalyserProblem.MoodAnalyser", "MoodAnalyser");
+        }
+        catch (MoodAnalyserCustomException actual)
+        {
+            //Assert
+            Assert.AreEqual(expected, actual.Message);
+        }
+    }
 
 }

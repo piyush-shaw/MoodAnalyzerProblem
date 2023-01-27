@@ -5,8 +5,13 @@ namespace MoodAnalyserProblem
 	{
 		public string message;
 
-		//constructor to initialize message
-		public MoodAnalyser(string message)
+		//default constructor
+        public MoodAnalyser()
+        {
+        }
+
+        //constructor to initialize message
+        public MoodAnalyser(string message)
 		{
 			this.message = message;
 		}
