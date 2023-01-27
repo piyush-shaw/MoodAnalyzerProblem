@@ -17,7 +17,12 @@ namespace MoodAnalyserProblem
 			//Handling Exception if user provide null value
 			try
 			{
-				if (message.ToLower().Contains("sad"))
+				//In case of null or empty mood throw custom exception
+				if (message.Equals(null))
+					throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.NULL_MESSAGE, "Message should not be null");
+				else if (message.Equals(string.Empty))
+					throw new MoodAnalyserCustomException(MoodAnalyserCustomException.ExceptionType.EMPTY_MESSAGE, "Message should not be empty");
+				else if(message.ToLower().Contains("sad"))
 					return "sad";
 				else
 					return "happy";
