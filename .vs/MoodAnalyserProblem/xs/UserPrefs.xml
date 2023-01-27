@@ -1,4 +1,5 @@
 ﻿<Properties StartupConfiguration="{D8C743D3-10E0-497D-BEB2-7B8533D25F62}|Default">
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.MoodAnalyserProblem FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.MoodAnalyserProblem PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.MoodAnalyserMSTest FirstBuild="True" />
 </Properties>
