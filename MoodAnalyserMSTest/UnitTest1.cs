@@ -155,4 +155,28 @@ public class UnitTest1
         object obj = MoodAnalyserFactory.CreateMoodAnalyseUsingParameterizedConstructor("MoodAnalyserProblem.MoodAnalyser", "MoodAnalyser", "SAD");
         expected.Equals(obj);
     }
+
+    //Method to use reflection to invoke method i.e analyse mood
+    [TestMethod]
+    public void GivenHappyMessageWhenProperShouldReturnHappy()
+    {
+        object expected = new MoodAnalyser("HAPPY");
+        object actual = MoodAnalyserFactory.InvokeAnalyserMethod("Happy", "AnalyseMood");
+        Assert.AreEqual(expected, actual);
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
